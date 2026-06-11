@@ -1,4 +1,4 @@
-﻿// ========== VANTA.JS BACKGROUND ==========
+// ========== VANTA.JS BACKGROUND ==========
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('year').textContent = new Date().getFullYear();
 
@@ -232,7 +232,7 @@ async function fetchGitHubProjects() {
             }
 
             card.innerHTML = `
-                <div class="project-icon">ðŸ“</div>
+                <div class="project-icon">&#128193;</div>
                 <h3 class="project-name">${repo.name}</h3>
                 <p class="project-desc">${repo.description || 'A developer tool.'}</p>
                 ${topicsHtml}
